@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Faculty+Glyphic&display=swap" rel="stylesheet">
+
+    <title>Procurando um objeto perdido</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="cenario-passo0.png" alt="">
+            <p>Em um belo dia estava andando pela minha cidade, ai encontrei um papel escrito: PROCURA-SE UMA BARRA DE OURO!!. E nela tinha uma pista a onde essa barra deve estar, e segui essa pista. </p>
+            <button class="btn-proximo" data-proximo="1">floresta misteriosa</button>
+            <button class="btn-proximo" data-proximo="2">caminho suspeito</button>
+        </div>
+        
+        <div class="passo" id="passo-1">
+            <p>O começo de sua aventura pela floresta misteriosa onde a pista estava. </p>
+            <button class="btn-proximo" data-proximo="3">seguir pela frente da floreta</button>
+            <button class="btn-proximo" data-proximo="4">voltar para casa</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <img src="cenario-passo2.png" alt="">
+           <p>No caminho suspeito você encontra duas placas apontando para dois caminhos diferentes. Qual você escolhe?</p> 
+           <button class="btn-proximo" data-proximo="5">caminho do cemiterio</button>
+           <button class="btn-proximo" data-proximo="6">caminho para a igreja</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <img src="cenario-passo3.png" alt="">
+            <p>Seguindo a floresta misteriosa você encontra uma casa abandonada.</p>
+            <button class="btn-proximo" data-proximo="7">entrar na casa</button>
+        </div>
+        <div class="passo" id="passo-4">
+            <p>Você decide voltar para casa mas pensando como você ficaria com essa barra de ouro.</p>
+        </div>
+        <div class="passo" id="passo-5">
+           <p>Chegando no cemitério você se depara com uma lapide com um mapa da floresta, e nele tá escrito que: Você
+            deve pegar por esse caminho suspeito. </p>
+           <button class="btn-proximo" data-proximo="8">viajar pelo caminho suspeito</buttom>
+        </div>
+        <div class="passo" id="passo-6">
+            <p>Na Igreja você encontra um botão apertando nele uma passagem secreta.</p>
+            <button class="btn-proximo" data-proximo="9">entrar na passagem secreta</button>
+        </div>
+        <div class="passo" id="passo-7">
+            <img src="cenario-passo7.png" alt="">
+            <p>Entrando na casa tem uma mesa, e em cima dessa mesa tem um papel escrito: seguir por um caminho suspeito.</p>
+            <button class="btn-proximo" data-proximo="10">Ir para igreja</button>
+        </div>
+        <div class="passo" id="passo-8">
+            <p>Viajando com o mapa encontra duas placas nelas tava escrito cemitério e a outra igreja, mas no mapa está indicando para seguir o caminho da igreja. </p>
+            <button class="btn-proximo" data-proximo="10">Ir para igreja</button>
+        </div>
+        <div class="passo" id="passo-9">
+            <p>Na passagem secreta tem um tunel muito grande com dois caminhos.</p>
+            <button class="btn-proximo" data-proximo="11">caminho da esquerda</button>
+            <button class="btn-proximo" data-proximo="12">caminho da direita</buttom>
+        </div>
+        <div class="passo" id="passo-10">
+            <p>Na igreja em cima do palco tem um botão, e você decide apertar.</p>
+            <button class="btn-proximo" data-proximo="13">apertar o botão</button>
+        </div>
+        <div class="passo" id="passo-11">
+            <img src="cenario-passo11.png" alt="">
+            <p>Seguindo o caminho da esquerda você vê um tunel com uma parede indicando que esse é o fim.</p>
+            <button class="btn-proximo" data-proximo="14">voltar e seguir o caminho da direita</button>
+        </div>
+        <div class="passo" id="passo-12">
+            <p>No caminho da direita tem uma luz lá no final do tunel que chegando perto tem uma barra de ouro identica a do papel.</p>
+            <button class="btn-proximo" data-proximo="15">pergar a Barra de Ouro</button>
+        </div>
+        <div class="passo" id="passo-13">
+            <p>Apertando o botâo você vê uma passagem secreta que no mapa fala para descer na passagem.</p>
+            <button class="btn-proximo" data-proximo="16">descer a passagem secreta</button>
+        </div>
+        <div class="passo" id="passo-14">
+            <p>Indo para o caminho da direita lá no final do tunel uma luz que bilha que nem uma barra de ouro.</p>
+            <button class="btn-proximo" data-proximo="17">Ir para essa luz</button>
+        </div>
+        <div class="passo" id="passo-15">
+            <p>Pegando a Barra de Ouro você decide correr para a sua casa.</p>
+            <button class="btn-proximo" data-proximo="18">Correr para Casa</button>
+        </div>
+        <div class="passo" id="passo-16">
+            <p>descendo nessa passagem tem dois caminho um para direita e esquerda, no mapa fala para seguir o da direita que indo nesse caminho vai achar seu tesouro. </p>
+            <button class="btn-proximo" data-proximo="19">ir para o caminho da direia</button>
+        </div>
+        <div class="passo" id="passo-17">
+            <p>Chegando perto dessa luz você vê que é uma Barra de Ouro que é igual a do papel.</p>
+            <button class="btn-proximo" data-proximo="15">pegar a barra de ouro</button>
+        </div>
+        <div class="passo" id="passo-18">
+            <p>Na sua casa você esconde sua Barra de Ouro em seu quarto.</p>
+            <button class="btn-proximo" data-proximo="20">esconder Barra de Ouro</button>
+        </div>
+        <div class="passo" id="passo-19">
+            <p>No caminho da direita se depara com uma Barra de Ouro que é igualzinho com a do papel.</p>
+            <button class="btn-proximo" data-proximo="21">pegar Barra de Ouro</button>
+        </div>
+        <div class="passo" id="passo-20">
+            <p>Ela escondida você decide festejar com essa conquita.</p>
+            
+        </div>
+        <div class="passo" id="passo-21">
+            <p>Pegando a Barra de Ouro você decide ir para sua e comemorar a sua conquista. </p>
+            
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

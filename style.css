@@ -1,0 +1,33 @@
+body{
+    background-color: slategrey;
+    color: black;
+    font-family: "Faculty Glyphic", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 750px;
+    margin: 0;
+}
+button {
+    background-color: rgb(185, 185, 185);
+    color: black;
+    font-family: "Faculty Glyphic", sans-serif;
+}
+
+.passo{
+    display: none;
+} 
+
+
+.passo.ativo{
+    display:block;
+}
+
+main {
+    text-align: center;
+    max-width: 90%;
+}
+
+img { 
+    max-width: 80%;
+}
